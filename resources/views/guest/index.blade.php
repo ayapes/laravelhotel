@@ -1,12 +1,12 @@
 @extends('layouts.hotelapp')
 {{-- 指定したファイルからレイアウトを継承--}}
-@section('title','ホテルララベル')
+@section('title','ホテルララベル予約管理システム')
 
 @section('menubar','利用者一覧表')
 
 @section('content')
 
-<div class="box title">
+<div class="title box">
     <p><span>ID</span></p>
     <p><span>名前</span></p>
     <p><span>メアド</span></p>

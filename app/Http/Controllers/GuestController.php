@@ -7,10 +7,25 @@ use App\Guest;
 
 class GuestController extends Controller
 {
-    public function index(){
+    public function index()
+    {
 
         $items = Guest::all();
-        return view('guest.index',['items' => $items]);
+        return view('guest.index', ['items' => $items]);
+    }
+
+    public function add()
+    {
+
+        return view('guest.add');
+
+    }
+    public function create(Request $request)
+    {
+
+        $user = new Guest();
+        $user->fill($request->all())->save();
+        return redirect('/guest');
 
     }
 }
