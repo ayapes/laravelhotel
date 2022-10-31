@@ -103,6 +103,55 @@
             width: 15%;
         }
 
+        /* 予約一覧 */
+
+        #content .box2 {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #content>.box2>p {
+            padding: 5px 3px;
+        }
+
+        #content>.box2>p>span {
+            display: inline-block;
+            border: 1px solid rgb(73, 73, 73);
+            width: 100%;
+            padding: 3px;
+        }
+
+        #content>.box2>p:nth-of-type(1) {
+            width: 5%;
+            text-align: center;
+        }
+
+        #content>.box2>p:nth-of-type(2) {
+            width: 20%;
+        }
+
+        #content>.box2>p:nth-of-type(3) {
+            width: 35%;
+        }
+
+        #content>.box2>p:nth-of-type(4) {
+            width: 5%;
+            text-align: center;
+        }
+
+        #content>.box2>p:nth-of-type(5) {
+            width: 5%;
+            text-align: center;
+        }
+
+        #content>.box2>p:nth-of-type(6) {
+            width: 15%;
+        }
+
+        #content>.box2>p:nth-of-type(7) {
+            width: 15%;
+        }
+
         form {
             width: 50%;
         }

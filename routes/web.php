@@ -18,3 +18,5 @@ Route::get('/', function () {
 Route::get('guest','GuestController@index');
 Route::get('guest/add','GuestController@add');
 Route::post('guest/add','GuestController@create');
+
+Route::get('reserve','ReserveController@index');
