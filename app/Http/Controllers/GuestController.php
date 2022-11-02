@@ -23,8 +23,8 @@ class GuestController extends Controller
     public function create(Request $request)
     {
 
-        $user = new Guest();
-        $user->fill($request->all())->save();
+        $guest = new Guest();
+        $guest->fill($request->all())->save();
         return redirect('/guest');
 
     }
